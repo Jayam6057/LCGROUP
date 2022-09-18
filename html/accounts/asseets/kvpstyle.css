@@ -32,3 +32,12 @@
   margin-top: 5px;
   margin-left: 40px;
   }
+table1, th, td {
+  border: 3px solid goldenrod;
+  border-style: 20px;
+  background-color:lightgreen;
+  font-family: cursive;
+  color:brown;
+  font-size: 20px;
+  text-align: center;
+}
