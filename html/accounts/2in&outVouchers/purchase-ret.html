@@ -4,7 +4,8 @@
        </title> 
     </head>
     <body style="background-color:black">
-        <div>    
+        <link rel="stylesheet" href="../asseets/kvpstyle.css">
+            <div>    
             <nav style="background-color: black">          
                 <img src="../asseets/KVP1.jpg" alt="kvp">
                 <h1 style="color:blue; ">PURCHASE RETURN</h1>
@@ -13,10 +14,47 @@
             <a style="color:white;font-family:cursive;size: 25px" href="./pur&sal.html">PUR & SALE</a>
             <h1 style="color:red;font-family:cursive">PURCHASE RETURN NO:</h1>
             <label style="color:wheat"for="date">DATE:</label>
-            <input type="date" name="date" id="dt">
+            <input type="date" name="date" id="dt">&nbsp;&nbsp;
             <label style="color:white"for="date">VENDOR NO:</label>
-            <input type="date" name="date" id="dt">    
-    </body>
-
-
+            <input type="number" name="num" id="num"><br><br>
+            <label style="color:white"for="date">VENDOR NAME:</label>
+            <input type="text" name="vendor" id="vendor"><br><br> 
+                
+            <table>
+                    <thead>
+                        <tr style="text-align:center">
+                            <td style="width:45px">SLNO</td>
+                            <td style="width:50px">SKU NO</td>
+                            <td style="width:500px">PRODUCT NAME</td>
+                            <td style="width:50px">MFD DATE</td>
+                            <td style="width:60px">HSN CODE</td>
+                            <td style="width:45px">QTY</td>
+                            <td style="width:80px">PRICE</td>
+                            <td style="width:50px">C-GST</td>
+                            <td style="width:80px">C-GST RS.</td>
+                            <td style="width:50px">S-GST</td>
+                            <td style="width:80px">S-GST RS.</td>
+                            <td style="width:90px">TOTAL COST</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                            <td style="text-align:left">1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <button style="background-color:green;font-size:25px;color:red">SAVE & EXIT</button>
+            <button style="background-color:red;font-size:25px;color:bisque">EDIT</button>    
+        </body>
 </html>
