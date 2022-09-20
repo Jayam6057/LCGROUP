@@ -41,3 +41,31 @@ table1, th, td {
   font-size: 20px;
   text-align: center;
 }
+.reg-form
+{
+color:blue;
+font-family: cursive;
+font-size: 20px;
+}
+
+.a{
+  background-color:blueviolet;
+  font-size:25px;
+  font-family:cursive;
+  color:goldenrod
+
+}
+.a1{
+  background-color:saddlebrown;
+  font-size:25px;
+  font-family:cursive;
+  color:whitesmoke
+
+}
+.a2{
+  background-color:red;
+  font-size:25px;
+  font-family:cursive;
+  color:whitesmoke
+
+}

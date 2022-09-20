@@ -3,19 +3,47 @@
 <head>
     <link href="./assets/bootstrap.css">
     <link href="../asseets/kvpstyle.css">
-    <title>Accounts</title>
+    <title>REGISTRATION</title>
 </head>
     <body style="background-color:black">
+        <link rel="stylesheet" href="../asseets/kvpstyle.css">
         <div style="font-size: 18px;font-style: italic">     
             <nav style="background-color: black">          
-                <img src="../asseets/KVP1.jpg" alt="kvp">&nbsp;&nbsp;    
-                    <h1>Accounts</h1>
-                        <a > </a>
-                        <link rel="import" href="./A.R.html">
-                        <link rel="import" href="./contravoucher.html">
-                        <link rel="import" href="./jurnalvoucher.html">
+                <img src="../asseets/KVP1.jpg" alt="kvp">    
+                    <h1 style="color:blue">Accounts</h1>
+                        <a style="color:white; font-size:20px" href="../home.html">HOME</a>&nbsp;&nbsp;&nbsp;
+                        <a style="color:white; font-size:20px" href="./reg.html">REGISTRATION</a>
             </nav>
-
+            <u style="color:red"><h1 style="color:blue;font-family:cursive">CUSTOMER REGISTRATION</h1></u>
+            <div class="reg-form">
+                <form>
+                    <label >CUST-REG-NO::</label>
+                    <input type="autonumber" name="cust-number" id="num"><br><br>
+                    <label >DATE::</label>
+                    <input type="date" name="date" id="date"><br><br>
+                    <label >COMP NAME::</label>
+                    <input type="text" name="c-name" id="c-name"placeholder="C-Name"><br><br>
+                    <label >MD NAME::</label>
+                    <input type="text" name="md-name" id="md-name"placeholder="md name"><br><br>
+                    <label >ADDRESS::</label>
+                    <input type="address"style="color:black" cols="60" rows="1" maxlength="40" placeholder="ADDRESS">
+                    <label >DISTRICT::</label>
+                    <input type="text" name="district" id="district"><br><br>    
+                    <label >STATE::</label>
+                    <input type="text" name="state" id="state">
+                    <label >PIN NO::</label>
+                    <input type="number" name="pin" id="pin"><br><br>
+                    <label>GSTNO::</label>
+                    <input type="number"name="gstno" id="gstno"placeholder="gstno"maxlength="12">
+                    <label>PAN NO::</label> 
+                    <input type="number"name="panno" id="panno"placeholder="panno"maxlength="10"><br><br>   
+                    <label>TIN & TAN NO::</label> NO::</label>
+                    <input type="number"name="panno" id="panno"placeholder="panno"maxlength="10">
+                </form>
+            </div><br>    
+            <button class="a">SAVE & EXIT</button>&nbsp;
+            <button class="a1">EDIT</button>
+        
         </div>
     </body>
 </html>    
