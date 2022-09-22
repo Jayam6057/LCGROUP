@@ -18,16 +18,17 @@
                     <img src="./assets/KVP.jpg" alt="kvp">
                         <u style="color:orange"><h3 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color:whitesmoke">Software Solution's</h3></u>
                             <h2 style="font-family:Arial, Helvetica, sans-serif;color:aqua">"Finance-Application"</h2>
-                                <form>
+                                <form name="login" method="post" onsubmit="return validpassword()" action="./accounts/home.html">
                                     <label style="color: tomato;font-size:25px" >UserId: </label>&nbsp;&nbsp;&nbsp;
                                     <input type="text" class="a2" placeholder="USERID"><br><br>    
                                     <label style="color: tomato;font-size:25px">Password:</label>
-                                    <input type="password" class="a2"placeholder="PASSWORD">
+                                    <input type="password" name="password" class="a2"placeholder="PASSWORD" maxlength="6">
+                                    <button type="submit" class="a" >SUBMIT</button>
+                                    <button class="a1" type="reset">RESET</button>
                                 </form><br><br>
-                            <button onsubmit="" class="a" >SUBMIT</button>
-                        <button class="a1" onreset="">RESET</button>                    
-        </div>        
-    </div>
+                                                
+            </div>        
+        </div>
     </body>
 <body>
     <p style="font-size:25px;color:gold; font-family:cursive">
