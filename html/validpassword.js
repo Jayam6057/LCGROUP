@@ -1,8 +1,7 @@
 function validpassword(){
-    var password=document.login.password.value;
-    var password
-    if (pawwword.lenght<6) {
-        alert("please enter 6 digit password");
+    var password=document.getElementById("password");
+    if (password==="text") {
+        alert("please enter valid password");
         return false;
     }
 }
