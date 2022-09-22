@@ -43,9 +43,30 @@ align-content: center;
   text-align: center;
   text-decoration: underline;
   text-shadow: 3px;
+  
 }
 .img1{
   border-radius: 50%;
   width: 300px;
   height: 300px;
+}
+.a{
+  background-color:blueviolet;
+  font-size:20px;
+  font-family:cursive;
+  color:goldenrod
+
+}
+.a1{
+  background-color:saddlebrown;
+  font-size:20px;
+  font-family:cursive;
+  color:whitesmoke
+
+}
+.a2{
+  background-color:whitesmoke;
+  font-size:20px;
+  font-family:cursive;
+  color:black;
 }
