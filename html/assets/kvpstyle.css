@@ -35,3 +35,17 @@
 .adjust{
 align-content: center;
 }
+.kvp{
+  font-size: 50px;
+  font-family: cursive;
+  color:brown;
+  background-color: gold;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 3px;
+}
+.img1{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
