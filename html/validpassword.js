@@ -3,5 +3,6 @@ function validpassword(){
     if (password==="text") {
         alert("please enter valid password");
         return false;
+        redireto
     }
 }

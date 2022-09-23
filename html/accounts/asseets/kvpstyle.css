@@ -67,5 +67,17 @@ font-size: 20px;
   font-size:25px;
   font-family:cursive;
   color:whitesmoke
-
+}
+.Navbar1{
+  width: 30px;
+  height: auto;
+  nav-left: auto;
+  background-color:white;
+  font-size: 25px;
+  font-family:cursive;
+}
+.Style1{
+color:gold;
+font-family:cursive;
+font-size:20px;
 }
