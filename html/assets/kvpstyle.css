@@ -70,3 +70,17 @@ align-content: center;
   font-family:cursive;
   color:black;
 }
+
+.flex-container
+{
+  display: flex;
+  }
+.flex-container2
+{
+  flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: auto;
+  border-color: brown;
+} 
