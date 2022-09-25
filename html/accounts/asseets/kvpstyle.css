@@ -74,6 +74,15 @@ font-size: 20px;
   font-family:cursive;
   
 }
+.a4{
+  background-color:red;
+  font-size:25px;
+  color:whitesmoke;
+  font-family:cursive;
+  text-align:center;
+  text-decoration: underline;  
+}
+
 .Navbar1{
   width: 30px;
   height: auto;
