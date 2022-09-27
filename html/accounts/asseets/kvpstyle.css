@@ -173,4 +173,15 @@ font-size:20px;
   border: 2px;
   background-color: gold;
   }
-  
+.margin1{
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: black;
+}  
+.Style2{
+  color:blue;
+  font-family:cursive;
+  font-size: 20px;
+}
