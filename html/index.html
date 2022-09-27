@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" language="javascript">
-        document.getElementById("id").innerHTML="text/javascript"
-    </script>
+    <script> 
+        document.getElementById("id").innerHTML="text/javascript"</script>
+    
         <link href="./assets/bootstrap.css">
         <link rel="stylesheet" href="./assets/kvpstyle.css">
         <title>kvpsoftwaresolutions.com</title>
@@ -16,16 +16,17 @@
             <div class="flex-container1">
                 <img src="./assets/md.jpg" alt="md" width="650" height="650" class="barder">
             </div>       
-                <div class="flex-container2 Frame">
+                <div class="flex-container2; Frame">
                     <img src="./assets/KVP.jpg" alt="kvp">
                         <u style="color:orange"><h3 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color:whitesmoke">Software Solution's</h3></u>
                             <h2 style="font-family:Arial, Helvetica, sans-serif;color:aqua">"Finance-Application"</h2>
-                                <form></form>
+                                <form>
                                     <label style="color: tomato;font-size:25px">UserId: </label>&nbsp;&nbsp;&nbsp;
                                     <input type="text" class="a2" placeholder="USERID"><br><br>    
                                     <label style="color: tomato;font-size:25px">Password:</label>
                                     <input type="password" name="password" class="a2"placeholder="PASSWORD" id="password" maxlength="8-16"><br><br><br>
-                                    <button type="submit" class="a" onclick="window.location.href='./accounts/home.html'">SUBMIT</button>
+                              <!--      <button type="submit" class="a" onclick="window.location.href='./accounts/home.html'">SUBMIT</button> -->
+                                    <button type="submit" class="a" onclick="validpassword()">SUBMIT</button>
                                     <button class="a1" type="reset">RESET</button>
                                 </form><br><br>
                                                 
