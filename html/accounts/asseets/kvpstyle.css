@@ -183,5 +183,10 @@ font-size:20px;
 .Style2{
   color:blue;
   font-family:cursive;
-  font-size: 25px;
+  font-size: 20px;
+}
+.Style3{
+  color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
 }
