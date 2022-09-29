@@ -1,13 +1,14 @@
 <html>
-    <head>      
-        <title>A.RECEIPT</title> 
+    <head>       
+        <title>A.PAYMENT</title>
     </head>
+    
     <body class="margin1">
         <link rel="stylesheet" href="../asseets/kvpstyle.css">
-        <div>    
+            <div>    
             <nav>          
                 <img src="../asseets/KVP1.jpg" alt="kvp">
-                <h1 class="Style1">ACCOUNTS RECEIPT</h1>
+                <h1 class="Style1"><u>A.PAYMENT</u></h1>
             </nav>
             <div class="dropdown">
                 <button class="dropdown-content; a3"><u>ACCOUNTS</u>
@@ -80,44 +81,48 @@
              <a class="Style1" href="../Creations/GST.html">GST-CREATION</a>
          </div>
      </nav> 
-    </div><br><br><br>
-           
-    <div class="dropdown">
-        <button class="dropdown-content; a3"><u>RECEIPT VOUCHER</u>
-                    <i class="fa fa-caret-down"></i>
-            </button>&nbsp;&nbsp;&nbsp;&nbsp;  
-         <div class="dropdown-content">
-        <a class="Style1" href="./A.R.html">CASH RECEIPT</a>
-        <a class="Style1" href="./A.R bank.html">BANK RECEIPT</a>
-    </div></div><br><br><br><br>       
+    </div><br><br><br>    
+        <div>
+
+            <div class="dropdown">
+                <button class="dropdown-content; a3"><u>PAYMENT VOUCHER</u>
+                            <i class="fa fa-caret-down"></i>
+                    </button>&nbsp;&nbsp;&nbsp;&nbsp;  
+                 <div class="dropdown-content">
+                <a class="Style1" href="./A.P.html">CASH PAYMENT</a>
+                <a class="Style1" href="./A.P bank.html">BANK PAYMENT</a>
+            </div></div><br><br><br><br>       
 
 
-    <h1 class="Style1" style="text-align:center ;" ><u> CASH RECEIPT VOUCHER </u></h1><br><br>
-<form class="reg-form">
-        
-    <form class="reg-form">
-        <h1 class="Style2">RECEIPT NO::</h1><br>
-        
-    <form class="reg-form">
-        <label for="">Date::</label>
-        <input class="Style3"type="date";name="date" placeholder="DATE"><br><br>
-        <label for="">GL Number:</label>
-        <input class="Style3"type="number" placeholder="GL NUMBER">
-        <label for="">Debit Head: DR</label>
-        <input class="Style3"type="text" placeholder="DEBITE HEAD">
-        <label for="">Amount</label>    
-        <input class="Style3"type="number" placeholder="AMOUNT"><br><br>
-        <label for="">GL Number:</label>
-        <input class="Style3"type="number" placeholder="GL NUMBER">
-        <label for="">Credit Head: CR</label>
-        <input class="Style3"type="text"placeholder="CREDIT HEAD">
-        <label for="">Amount</label>
-        <input class="Style3"type="number" placeholder="AMOUNT"><br><br>
-        <label for="">Neration</label>
-        <textarea class="Style3" cols="60" rows="1" maxlength="60" placeholder="NERATION"></textarea><br><br>       
-
+            <h1 class="Style1" style="text-align:center ;" ><u> BANK Payment Voucher </u></h1><br><br>
+        <form class="reg-form"> 
+            
+            <div>
+            <label >DATE::</label>
+            <input class="Style3" type="date" name="date" id="date" placeholder="DATE"><br><br>
+            <label > Gl Number::</label>
+            <input class="Style3" type="number" name="glnumber" id="gl" placeholder="GL NUMBER">        
+            <dropdown for="" class="Style2">Debit Head:: DR::</dropdown>
+            <input class="Style3" type="text" name="debithead"id="debit" placeholder="DEBIT HEAD">
+            <label >Amount::</label>
+            <input type="amount" placeholder="Amount" class="Style3"><br><br>
+            <label > Gl Number::</label>
+            <input type="number" name="glnumber" id="gl" class="Style3" placeholder="GL NUMBER">
+            <dropdown for="">Credit Head:: CR::</dropdown>
+            <input type="text" class="Style3" placeholder="CREDIT HEAD">
+            <label for="">Amount::</label>
+            <input type="amount" class="Style3" placeholder="Amount"><br><br>
+            <label for="">NEFT/IFT/UTR NO::</label>
+            <input type="number" class="Style3" placeholder="NEFT/IFT/UTR NO::"><br><br>
+            <label >TRANSACTION DATE::</label>
+            <input class="Style3" type="date" name="date" id="date" placeholder="TRANSACTION DATE"><br><br>             
+            <label for="">Neration::</label>
+            <textarea class="Style3" cols="60" rows="1" maxlength="60" placeholder="NERATION"></textarea><br><br>
+        </form>
         <button class="a">Submit</button>
         <button class="a1">Edit</button>
         <button class="a2">Delete</button>
+        </div> 
+    </div>
     </body>
 </html>
