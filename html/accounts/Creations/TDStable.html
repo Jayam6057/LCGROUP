@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>GST-CREATION</title>
     </head>
-    <body style="background-color:black">
+    <body class="margin1">
+        <div>
         <link rel="stylesheet" href="../asseets/kvpstyle.css">
-        <header>
             <img src="../asseets/KVP1.jpg" alt="kvp">
-            <h1 class="Style1">TDS SLAB</h1>
-        </header> 
-              
+                        <div class="dropdown">
+                            <button class="dropdown-content; a3"><u>ACCOUNTS</u>
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>&nbsp;&nbsp;&nbsp;&nbsp;                             
+                                        <div class="dropdown-content">
+                                             <a class="Style1" href="../1Accountsvouchers/A.P.html"><u>A.PAYMENT</u></a>
+                                             <a class="Style1" href="../1Accountsvouchers/A.R.html"><u>A.RECEIPT</u></a>
+                                             <a class="Style1" href="../1Accountsvouchers/contravoucher.html"><u>CANTRA</u></a>
+                                             <a class="Style1" href="../1Accountsvouchers/journalvoucher.html"><u>JOURNAL</u></a>
+                                        </div>            
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropdown-content; a3"><u>PURCHASE</u>
+                                     <i class="fa fa-caret-down"></i>
+                                </button>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div class="dropdown-content">
+                                             <a class="Style1" href="../2in&outVouchers/purchase-order.html">PUR-ORDER</a>   
+                                             <a class="Style1" href="../2in&outVouchers/purchase-ret.html">PUR-RETURN</a>
+                                             <a class="Style1" href="../2in&outVouchers/purchase.html">PURCHASE-INV</a>
+                                        </div>
+                        </div> 
+                        <div class="dropdown">
+                            <button class="dropdown-content; a3"><u>SALES</u>
+                                    <i class="fa fa-caret-down"></i>
+                                </button>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <div class="dropdown-content">
+                                             <a class="Style1" href="../2in&outVouchers/sales-order.html">SALES-ORDER</a>
+                                             <a class="Style1" href="../2in&outVouchers/sales-ret.html">SALES-RETURN</a>
+                                             <a class="Style1" href="../2in&outVouchers/sales.html">SALES-OUT</a>
+                                        </div>
+                    </div>    
+                    <div class="dropdown">
+                        <button class="dropdown-content; a3"><u>REGISTRATION</u>
+                                    <i class="fa fa-caret-down"></i>
+                                </button>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="dropdown-content">
+                                            <a class="Style1" href="../3REGISTRATION/emp-reg.html">EMP-REG</a>
+                                            <a class="Style1" href="../3REGISTRATION/ven-reg.html">VENDOR-REG</a>
+                                            <a class="Style1" href="../3REGISTRATION/cust-reg.html">CUSTOMER-REG</a>
+                                </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-content; a3"><u>REPORTS</u>
+                                    <i class="fa fa-caret-down"></i>      
+                                </button>&nbsp;&nbsp;&nbsp;&nbsp;                           
+                                <div class="dropdown-content">
+                                            <a href="../4Report/accountsreports/a.p.html" class="Style1">A.PAYMENT</a>
+                                            <a href="../4Report/accountsreports/a.r.html" class="Style1">A.RECEIPTS</a>
+                                            <a href="../4Report/accountsreports/contra.html"class="Style1">A.CONTRA</a>
+                                            <a href="../4Report/accountsreports/jurnal.html"class="Style1">A.JURNAL</a>
+                                </div>
+                    </div>    
+                    <div class="dropdown">
+                        <button class="dropdown-content; a3"><u>PERMISSION</u>
+                                    <i class="fa fa-caret-down"></i>
+                                </button>&nbsp;&nbsp;&nbsp;&nbsp;  
+                        <div class="dropdown-content">
+                                            <a href="../5permissions/permission.html"class="Style1">PERMISSION</a>   
+                                </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown-content; a3"><u>AC&GL_CREATION</u>
+                                    <i class="fa fa-caret-down"></i>
+                            </button>&nbsp;&nbsp;&nbsp;&nbsp;  
+                        <div class="dropdown-content">
+                        <a class="Style1" href="../Creations/glcreation.html">GL-CREATION</a>
+                        <a class="Style1" href="../Creations/TDStable.html">TDS-CREATION</a>
+                        <a class="Style1" href="../Creations/SKU.html">SKU-CREATION</a>
+                        <a class="Style1" href="../Creations/GST.html">GST-CREATION</a>
+                            </div>
+                        </nav> 
+                    </div><br><br>
+                
+                    <h1 class="Style1">TDS-CREATION</h1><br>
+                    <h1 class="Style1"><u>TDS-Cre-Number:-</u></h1><br><br>
+            <div>
+                <label class="reg-form">Date::</label>
+                <input class="reg-form" type="date" name="date" id="date" placeholder="DATE"><br><br><br>
+                <label class="reg-form">TDS Number::</label>
+                <input class="reg-form"type="dropdown-content" name="text" id="number" placeholder="GL NUMBER"><br><br><br>
+                <label class="reg-form">TDS Section HEAD::</label> 
+                <input class="reg-form"type="dropdown-content" name="text" id="number" placeholder="GL HEAD"><br><br><br>
+                
+            </div><br><br><br>  
+            <button class="a">SAVE</button>&nbsp;&nbsp;&nbsp;
+            <button class="a2">Edit</button>    
     </body>
 </html>
