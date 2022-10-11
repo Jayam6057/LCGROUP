@@ -27,7 +27,17 @@
   margin-bottom: auto;
   margin-left: 50px;
   margin-right: auto;
+}
+.flex-container4
+{
+  flex: 1;
+  padding: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: auto;
 } 
+
 .flex-container2
 {
    margin-right: 80px;
@@ -44,7 +54,7 @@
 .table1, th, td {
   border: 3px solid goldenrod;
   border-style: 20px;
-  background-color:lightgreen;
+  background-color:cornsilk;
   font-family: cursive;
   color:brown;
   font-size: 20px;
@@ -210,4 +220,17 @@ background-color: black;
   font-size:15px;
   background-color: black;
   }
-
+.box{
+  box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 10px;
+  }
