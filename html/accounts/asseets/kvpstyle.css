@@ -1,11 +1,11 @@
-  .Frame{
-    background-color:black;
-    width: 300px;
-    border: 5px solid goldenrod;
-    padding: 40px;
-    margin-top: 10px;
-    margin-left: 80px;
-    }
+.Frame{
+  background-color:black;
+  width: 300px;
+  border: 5px solid goldenrod;
+  padding: 40px;
+  margin-top: 10px;
+  margin-left: 80px;
+  }
 
 .flex-container
 {
@@ -52,50 +52,51 @@
   margin-left: 40px;
   }
 .table1, th, td {
-  border: 3px solid goldenrod;
-  border-style: 20px;
+  border: 1px solid goldenrod;
+  border-style: 15px;
   background-color:cornsilk;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   color:brown;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
+  
 }
 .reg-form
 {
-color:blue;
-font-family: cursive;
-font-size: 20px;
+  color:blue;
+  font-family: cursive;
+  font-size: 10px;
 }
 
 .a{
   background-color:blueviolet;
-  font-size:25px;
+  font-size:15px;
   font-family:cursive;
   color:goldenrod
 
 }
 .a1{
   background-color:saddlebrown;
-  font-size:25px;
+  font-size:15px;
   font-family:cursive;
   color:whitesmoke
 }
 .a2{
   background-color:red;
-  font-size:25px;
+  font-size:15px;
   font-family:cursive;
   color:whitesmoke
 }
 .a3{
   background-color: black;
-  font-size:20px;
+  font-size:15px;
   color:gold;
   font-family:cursive;
   
 }
 .a4{
   background-color:red;
-  font-size:25px;
+  font-size:15px;
   color:whitesmoke;
   float: right;
   font-family:cursive;
@@ -109,7 +110,7 @@ font-size: 20px;
 }
 .a5{
   background-color:greenyellow;
-  font-size:25px;
+  font-size:15px;
   font-family:cursive;
   color:RED;
 }
@@ -120,13 +121,13 @@ font-size: 20px;
   height: auto;
   nav-left: auto;
   background-color:white;
-  font-size: 25px;
+  font-size: 15px;
   font-family:cursive;
 }
 .Style1{
 color:gold;
 font-family:cursive;
-font-size:20px;
+font-size:15px;
 background-color: black;
 }
 
@@ -193,7 +194,7 @@ background-color: black;
 .Style5{
   float: right;
   font-family:cursive;
-  font-size:25px;
+  font-size:15px;
   border: 2px;
   background-color: gold;
   }
@@ -207,12 +208,12 @@ background-color: black;
 .Style2{
   color:blue;
   font-family:cursive;
-  font-size: 20px;
+  font-size: 15px;
 }
 .Style3{
   color:black;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 10px;
 }  
 .Style4{
   color:gold;
@@ -220,17 +221,6 @@ background-color: black;
   font-size:15px;
   background-color: black;
   }
-.box{
-  box-sizing: border-box;
-  }
-  
-  .row {
-    display: flex;
-    margin-left:-5px;
-    margin-right:-5px;
-  }
-  
-  .column {
-    flex: 25%;
-    padding: 10px;
-  }
+.tableee{
+  display:flex;
+}
